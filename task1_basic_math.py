@@ -16,4 +16,7 @@ mul=num_1*num_2
 div=num_1/num_2
 
 #printing results
-print("Addition: "+str(add),"Substraction: "+str(sub),"Multiplication: "+str(mul),"Division: "+str(div),sep="\n")
+#print("Addition: "+str(add),"Substraction: "+str(sub),"Multiplication: "+str(mul),"Division: "+str(div),sep="\n")
+
+#printing using f string
+print(f"Addition: {str(add)} Substraction: {str(sub)} Multiplication: {str(mul)} Division: {str(div)}")
